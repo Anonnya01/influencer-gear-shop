@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   max-width: 1440px;
   margin: 0 auto;
@@ -114,7 +115,7 @@ i {
 }
 .box img {
   width: 100%;
-  padding: 16px 0;
+  padding: 16px 0t
 }
 .box-title{
 font-size: 28px;
@@ -230,3 +231,88 @@ margin-bottom: 10px;
     box-shadow: 2px, 4px, 4, rgb(237, 234, 234);
   }
 }
+=======
+* {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #3a3a3a;
+}
+
+.btn-primary {
+  background-color: #e02c6d;
+  color: white;
+  border-radius: 41px;
+  padding: 10px 24px 10px 24px;
+  border: none;
+}
+
+/* nav styles */
+.navbar {
+  display: flex;
+  /* margin-right: 120px; */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 92px;
+  gap: 280px;
+}
+
+.nav-title h3 {
+  font-size: 1.4em;
+  font-weight: 700px;
+  color: var(--primary-color);
+}
+
+.nav-icons a,
+i {
+  margin-left: 34px;
+}
+
+.nav-icons a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+.header-content h1 {
+  font-size: 3.25em;
+  font-weight: 700px;
+  margin-bottom: 16px;
+  color: var(--primary-color);
+}
+.header-content p {
+  font-weight: 600px;
+  margin-bottom: 16.1px;
+}
+.header-img {
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+.header-img img {
+  width: 100%;
+  margin-top: 84px;
+
+}
+
+.icons {
+  display: flex;
+  grid-auto-flow: 61px;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 64px;
+  padding-bottom: 35px;
+  justify-content: space-between;
+}
+>>>>>>> 0d8af90898a537346cb11a38d08c4d2823a98b19
